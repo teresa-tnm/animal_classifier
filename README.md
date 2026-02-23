@@ -1,11 +1,36 @@
 Animal Classifier
-This is a simple web application that classifies images to identify animal species. It uses an image recognition system to analyze uploaded images and provide predictions with confidence scores.
+
+Animal Classifier is a simple web application that classifies images to identify animal species and breeds. It uses a deep learning image recognition model to analyze uploaded images and return predictions with confidence scores.
+
 Features
-Image Upload: Easily upload images via drag-and-drop or file selection.
+
+Image Upload: Upload images via drag-and-drop or file selection.
+
 Animal Classification: Identifies various animal species and breeds.
-Confidence Scores: Displays the likelihood of each predicted class.
-Top Match Highlight: Clearly shows the most confident animal prediction.
-Simple Interface: A clean and intuitive user interface for ease of use.
+
+Confidence Scores: Displays prediction confidence percentages.
+
+Top Match Highlight: Clearly highlights the most confident prediction.
+
+Simple Interface: Clean and intuitive user interface.
+
 Technologies Used
-Backend: Python (Flask, NumPy, Pillow)
-Frontend: HTML, CSS, JavaScript
+Backend
+
+Python
+
+Flask
+
+NumPy
+
+Pillow
+
+TensorFlow / Keras (ResNet50 – ImageNet)
+
+Frontend
+
+HTML
+
+CSS
+
+JavaScript
